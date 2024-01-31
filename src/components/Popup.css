@@ -1,0 +1,36 @@
+/* src/components/Popup.css */
+
+.popup-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup-content {
+  border: 5px solid yellow;
+  margin: 5vw;
+  background: black;
+  position: relative;
+}
+
+iframe {
+  width: 70vw;
+  height: 40vw;
+}
+
+.close-button {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  background: red;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}

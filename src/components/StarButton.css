@@ -1,0 +1,18 @@
+/* src/components/StarButton.css */
+
+.star-button {
+  background-color: red;
+  color: white; /* o negro según tu preferencia */
+  border: 2px solid yellow;
+  border-radius: 50%;
+  font-size: 18px;
+  padding: 20px;
+  cursor: pointer;
+  width: 10em;
+  height: 10em;
+}
+
+.star-button:hover {
+  background-color: darkred; /* Cambia el color al pasar el mouse si deseas */
+}
+

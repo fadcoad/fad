@@ -1,0 +1,15 @@
+/* src/components/IrButton.css */
+
+.Ir-button {
+  background-color: yellow;
+  color: black; /* o negro según tu preferencia */
+  border: 2px solid red;
+  border-radius: 50%;
+  font-size: 18px;
+  padding: 20px;
+  cursor: pointer;
+}
+
+.Ir-button:hover {
+  background-color: darkred; /* Cambia el color al pasar el mouse si deseas */
+}

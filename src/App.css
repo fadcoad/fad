@@ -1,0 +1,42 @@
+/* src/App.css */
+
+body {
+  margin-left: -3vw;
+  padding: 0;
+  background-color: black; /* Fondo negro */
+  font-size:0.8em;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-aling: center;
+  height: 50%; /* 100% del viewport height, para centrar el botón */
+  color: yellow;
+}
+
+.web {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%; /* 100% del viewport height, para centrar el botón */
+}
+
+.lin {
+  background-image: url('./lines01.jpg');
+  background-color: yellow;
+  display: absolute;
+  height: 4vh; /* 100% del viewport height, para centrar el botón */
+  width: 103vw;
+}
+
+.ban {
+   height: 50vw;
+   width: relative;
+   padding: 5vw;
+   align-items: center;
+   justify-content: center;
+}
